@@ -50,7 +50,7 @@ pomodoro/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pomodoro.git
+git clone https://github.com/Supriya-cs50/pomodoro.git
 ```
 
 ### Run the project

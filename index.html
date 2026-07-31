@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Pomodoro Timer</h1>
+
+    <div class="mode" id="modeLabel">Focus Time</div>
+
+    <div id="timer">25:00</div>
+
+    <div class="sessions">
+        Sessions Completed: <span id="sessionCount">0</span>
+    </div>
+
+    <div class="buttons">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <div class="toggle">
+        <button onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+    </div>
+</div>
+
+<audio id="alarmSound">
+    <source src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>

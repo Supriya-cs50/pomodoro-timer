@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+.container {
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    color: white;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+#timer {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons button {
+    background: #ffffff;
+    color: #ff4b5c;
+}
+
+.toggle button {
+    background: black;
+    color: white;
+}
+
+.mode {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.sessions {
+    margin-bottom: 10px;
+}
+
+/* Dark Mode */
+.dark {
+    background: linear-gradient(135deg, #232526, #414345);
+}
+
+.dark .container {
+    background: rgba(0,0,0,0.4);
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}

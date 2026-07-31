@@ -10,12 +10,6 @@ https://YOUR-VERCEL-LINK.vercel.app
 
 ---
 
-## Screenshot
-
-> Add a screenshot of the application here after deployment.
-
----
-
 ## Features
 
 - 25-minute focus timer

@@ -6,7 +6,7 @@ A responsive Pomodoro Timer built using HTML, CSS, and JavaScript. The applicati
 
 ## Live Demo
 
-https://YOUR-VERCEL-LINK.vercel.app
+https://pomodoro-timer-supriya17.vercel.app
 
 ---
 
